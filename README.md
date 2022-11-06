@@ -1,6 +1,6 @@
 # ProductivePet
 
-Inspiration
+Inspiration: 
 We noticed that when students are trying to complete a project, they often get distracted and do not have the motivation to do their work in time. Therefore, we came up with a fun platform to assist the user in completing tasks efficiently. A significant inspiration we had in the process of generating our idea was the Flora app, which features a similar concept where the user grows a tree through productive actions.
 
 What it does
@@ -18,9 +18,3 @@ We are proud of our never-give-up spirit and perseverance to learn from scratch.
 What we learned
 As freshmen in computer engineering, we did not have much experience in completing such a large project with little time. Initially, we insisted on using Python, specifically Django, to build a webpage, which is something none of us had ever used. We later realized that making a Chrome extension was also a possibility through JavaScript and altered our ideas accordingly. We used HTML and CSS to create the frontend and JavaScript for the backend, having never used JavaScript before. We learned multiple new skills such as the use of JavaScript and CSS in under 24 hours. Working together under a restrictive time constraint strengthened our collaboration and communication skills as we were forced to share our ideas with each other as efficiently as possible.
 
-First time using html javascript django css
-First time successfully using secret keys
-First time using Google extension
-First time building an entire project in one day
-What's next for Productive Pet
-We hope to take our project and increase functionality for the user by fixing bugs, implementing new features, and improving user experience. Our team is considering turning our project into a full-fledged Chrome extension on the Chrome Web Store.
