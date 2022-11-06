@@ -2,3 +2,56 @@ html, body {
   height: 75%;
   width: 100%;
 }
+$Amazon: #507255
+$RussianGreen: #637F5F
+$Artichoke: #99A57A
+$Champagne: #E1D89F
+$Tan: #D7B28B
+$Brass: #D29F81
+$Copper:#CD8B76
+#PaleGreen:#E7F2DE
+$OffWhite: #F7FAF4
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #FFF;
+	background-color: #F7FAF4;
+}
+
+h1 {
+  color: #507255;
+  font-family: verdana
+  
+}
+p {
+  font-family: verdana;
+  font-size: 16px;
+}
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #758C68;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #D7B28B;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
