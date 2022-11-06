@@ -1,6 +1,6 @@
 # ProductivePet
 
-Productive Pet is a NewHacks 2022 submission created by Ashley L, Danelle D, and Winnie H. 
+Productive Pet is a NewHacks 2022 submission by Ashley L, Danelle D, and Winnie H. 
 
 Inspiration: 
 We noticed that when students are trying to complete a project, they often get distracted and do not have the motivation to do their work in time. Therefore, we came up with a fun platform to assist the user in completing tasks efficiently. A significant inspiration we had in the process of generating our idea was the Flora app, which features a similar concept where the user grows a tree through productive actions.
