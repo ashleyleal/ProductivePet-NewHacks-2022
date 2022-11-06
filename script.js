@@ -42,8 +42,10 @@ window.addEventListener('load', () => {
 
 		list_el.appendChild(task_el);
 
+    // Ensures empty initial value in list element box
 		input.value = '';
 
+    // Waits for user to press edit and delete buttons
 		task_edit_el.addEventListener('click', (e) => {
 			if (task_edit_el.innerText.toLowerCase() == "edit") {
 				task_edit_el.innerText = "Save";
@@ -54,7 +56,8 @@ window.addEventListener('load', () => {
 				task_input_el.setAttribute("readonly", "readonly");
 			}
 		});
-
+   
+    // Kills list element when delete button is pressed 
 		task_delete_el.addEventListener('click', (e) => {
 			list_el.removeChild(task_el);
 		});
