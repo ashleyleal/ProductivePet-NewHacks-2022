@@ -21,12 +21,17 @@ window.addEventListener('load', () => {
 		task_input_el.type = 'text';
 		task_input_el.value = task;
 		task_input_el.setAttribute('readonly', 'readonly');
-
+    
+    //next line is correct
 		task_content_el.appendChild(task_input_el);
-
+    
+    //I think problem comes from the task_actions_el
 		const task_actions_el = document.createElement('div');
+
+    //this is fine
 		task_actions_el.classList.add('actions');
-		
+
+    //next two segments are fine
 		const task_edit_el = document.createElement('button');
 		task_edit_el.classList.add('edit');
 		task_edit_el.innerText = 'Edit';
@@ -43,7 +48,7 @@ window.addEventListener('load', () => {
 		list_el.appendChild(task_el);
 
     // Ensures empty initial value in list element box
-		input.value = '';
+	  input.value = '';
 
     // Waits for user to press edit and delete buttons
 		task_edit_el.addEventListener('click', (e) => {
@@ -51,7 +56,8 @@ window.addEventListener('load', () => {
 				task_edit_el.innerText = "Save";
 				task_input_el.removeAttribute("readonly");
 				task_input_el.focus();
-			} else {
+			} 
+      else {
 				task_edit_el.innerText = "Edit";
 				task_input_el.setAttribute("readonly", "readonly");
 			}
