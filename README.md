@@ -1,4 +1,5 @@
 # ProductivePet
+![demo](https://user-images.githubusercontent.com/69736735/215934289-dc8780dc-31d2-4804-9258-5a65bb54c64b.png)
 
 Productive Pet is a NewHacks 2022 submission by Ashley L, Danelle D, and Winnie H. 
 
